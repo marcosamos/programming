@@ -250,9 +250,9 @@ aside {
     place-content: center;
     margin-top: 20px;
 }
-.product-card {
+/* .product-card {
     width: 240px;
-}
+} */
 .product-card img {
     width: 240px;
     height: 240px;
@@ -294,7 +294,7 @@ aside {
     position: absolute;
     right: 0;
 }
-product-detail-close {
+.product-detail-close {
     background: var(--white);
     width: 14px;
     height: 14px;
@@ -305,7 +305,7 @@ product-detail-close {
     padding: 12px;
     border-radius: 50%;
 }
-product-detail-close:hover {
+.product-detail-close:hover {
     cursor: pointer;
 }
 #productDetail > img:nth-child(2) {
